@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: coral;
+    height: 100px;
+    padding: 20px 10%;
+    a{
+        color: cornflowerblue;
+    }
+}
+main{
+    padding: 20px 10%;
+    background-color: cornflowerblue;
+    min-height: calc(100vh - 100px);
+    li{
+        padding: 10px;
+        color: gold;
+    }
+    a{
+        color: greenyellow;
+    }
+}
